@@ -38,15 +38,23 @@ Sample usage:
 ./lamport
 
  enter the no of events (Max 9)
+
 4
 
  enter the no of send-receive message between p1, p2 and p3
+
 2
+
 Enter details for Message 1 
+
 ```<sender pid> <sender event> <receiver pid> <receiver event>```
+
 1 2 2 2
+
 Enter details for Message 2 
+
 ```<sender pid> <sender event> <receiver pid> <receiver event>```
+
 3 1 2 3
 
 Timestamps of processes are:
