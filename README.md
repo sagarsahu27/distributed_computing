@@ -43,14 +43,18 @@ Sample usage:
  enter the no of send-receive message between p1, p2 and p3
 2
 Enter details for Message 1 
-<sender pid> <sender event> <receiver pid> <receiver event>
+```<sender pid> <sender event> <receiver pid> <receiver event>```
 1 2 2 2
 Enter details for Message 2 
-<sender pid> <sender event> <receiver pid> <receiver event>
+```<sender pid> <sender event> <receiver pid> <receiver event>```
 3 1 2 3
+
 Timestamps of processes are:
 
-**---<E1>---<E2>---<E3>---<E4>
+**---<`E1`>---<`E2`>---<`E3`>---<`E4`>
+
 P1---< 4>---< 7>---<10>---<13>
+
 P2---< 4>---<10>---<13>---<16>
+
 P3---< 4>---< 7>---<10>---<13>
