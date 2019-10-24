@@ -49,8 +49,6 @@ struct response *calc_1_svc(variable *argp, struct svc_req *rqstp)
  case 3:
 {
     result=(argp->x)-(argp->y);
-    // Check for integer overflow
-    err_code = ((result < argp->x) || (result < argp->y))*2;
      break;
 }
  case 4:
